@@ -1,22 +1,30 @@
+/*
+https://leetcode.com/problems/add-two-numbers/
 
-public class AddTwoNumbers {
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+ */
+
+
+public class n2_AddTwoNumbers {
 
     public static void main(String[] args) {
-        new AddTwoNumbers().run();
+        new n2_AddTwoNumbers().run();
     }
 
     public void run() {
         int i1 = 9999999;
         int i2 = 9999;
 
-        Stats stats = Stats.start();
-        for (int i = 0; i < 300000000; i++) {
-            addTwoNumbers(
-                intToNode(i),
-                intToNode(i + 16439)
-            );
-        }
-        stats.show();
+//        Stats stats = Stats.start();
+//        for (int i = 0; i < 300000000; i++) {
+//            addTwoNumbers(
+//                intToNode(i),
+//                intToNode(i + 16439)
+//            );
+//        }
+//        stats.show();
 
         System.out.println(nodeToInt(addTwoNumbers(
                 intToNode(i1),

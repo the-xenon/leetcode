@@ -1,33 +1,38 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class LengthOfLongestSubstring {
+/*
+https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+
+Given a string s, find the length of the longest without duplicate characters.
+ */
+public class n3_LengthOfLongestSubstring {
 
     public static void main(String[] args) {
-        new LengthOfLongestSubstring().run();
+        new n3_LengthOfLongestSubstring().run();
     }
 
     public void run() {
-        Stats stats = Stats.start();
-        for (int i = 0; i < 100000000; i++) {
-            lengthOfLongestSubstring("cdd");
-            lengthOfLongestSubstring("dvdf");
-            lengthOfLongestSubstring("art");
-            lengthOfLongestSubstring("abcabcbb");
-            lengthOfLongestSubstring("bbbbb");
-            lengthOfLongestSubstring("pwwkew");
-        }
-        stats.show();
+//        Stats stats = Stats.start();
+//        for (int i = 0; i < 100000000; i++) {
+//            lengthOfLongestSubstring("cdd");
+//            lengthOfLongestSubstring("dvdf");
+//            lengthOfLongestSubstring("art");
+//            lengthOfLongestSubstring("abcabcbb");
+//            lengthOfLongestSubstring("bbbbb");
+//            lengthOfLongestSubstring("pwwkew");
+//        }
+//        stats.show();
 
-//        System.out.println(lengthOfLongestSubstring("cdd"));
-//        System.out.println(lengthOfLongestSubstring("dvdf"));
-//        System.out.println(lengthOfLongestSubstring("art"));
-//        System.out.println(lengthOfLongestSubstring("abcabcbb"));
-//        System.out.println(lengthOfLongestSubstring("bbbbb"));
-//        System.out.println(lengthOfLongestSubstring("pwwkew"));
-//        System.out.println(lengthOfLongestSubstring("art"));
-//        System.out.println(lengthOfLongestSubstring(" "));
-//        System.out.println(lengthOfLongestSubstring(""));
+        System.out.println(lengthOfLongestSubstring("cdd"));
+        System.out.println(lengthOfLongestSubstring("dvdf"));
+        System.out.println(lengthOfLongestSubstring("art"));
+        System.out.println(lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(lengthOfLongestSubstring("bbbbb"));
+        System.out.println(lengthOfLongestSubstring("pwwkew"));
+        System.out.println(lengthOfLongestSubstring("art"));
+        System.out.println(lengthOfLongestSubstring(" "));
+        System.out.println(lengthOfLongestSubstring(""));
     }
 
     int[] map = new int[256];
