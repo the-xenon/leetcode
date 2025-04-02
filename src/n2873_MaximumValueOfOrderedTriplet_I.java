@@ -4,23 +4,23 @@ public class n2873_MaximumValueOfOrderedTriplet_I {
     }
 
     private void run() {
-//        System.out.println(maximumTripletValue(new int[] {12,6,1,2,7}));
-//        System.out.println(maximumTripletValue(new int[] {1,10,3,4,19}));
-//        System.out.println(maximumTripletValue(new int[] {1,2,3}));
-//        System.out.println(maximumTripletValue(new int[] {1000000,1,1000000}));
-//        System.out.println(maximumTripletValue(new int[] {6,11,12, 12 ,7,9, 2 ,11,12,4, 19 ,14,16,8,16}));
-//        System.out.println(maximumTripletValue(new int[] {15,12,2,14,15,18,15,20,14,5,14,14,11,13,7}));
+        System.out.println(maximumTripletValue(new int[] {12,6,1,2,7}));
+        System.out.println(maximumTripletValue(new int[] {1,10,3,4,19}));
+        System.out.println(maximumTripletValue(new int[] {1,2,3}));
+        System.out.println(maximumTripletValue(new int[] {1000000,1,1000000}));
+        System.out.println(maximumTripletValue(new int[] {6,11,12, 12 ,7,9, 2 ,11,12,4, 19 ,14,16,8,16}));
+        System.out.println(maximumTripletValue(new int[] {15,12,2,14,15,18,15,20,14,5,14,14,11,13,7}));
 
-        Stats stats = Stats.start();
-        for (int i = 0; i < 10000000; i++) {
-            maximumTripletValue(new int[] {12,6,1,2,7});
-            maximumTripletValue(new int[] {1,10,3,4,19});
-            maximumTripletValue(new int[] {1,2,3});
-            maximumTripletValue(new int[] {1000000,1,1000000});
-            maximumTripletValue(new int[] {6,11,12, 12 ,7,9, 2 ,11,12,4, 19 ,14,16,8,16});
-            maximumTripletValue(new int[] {15,12,2,14,15,18,15,20,14,5,14,14,11,13,7});
-        }
-        stats.show();
+//        Stats stats = Stats.start();
+//        for (int i = 0; i < 10000000; i++) {
+//            maximumTripletValue(new int[] {12,6,1,2,7});
+//            maximumTripletValue(new int[] {1,10,3,4,19});
+//            maximumTripletValue(new int[] {1,2,3});
+//            maximumTripletValue(new int[] {1000000,1,1000000});
+//            maximumTripletValue(new int[] {6,11,12, 12 ,7,9, 2 ,11,12,4, 19 ,14,16,8,16});
+//            maximumTripletValue(new int[] {15,12,2,14,15,18,15,20,14,5,14,14,11,13,7});
+//        }
+//        stats.show();
 
     }
 
