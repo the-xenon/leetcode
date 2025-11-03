@@ -1,4 +1,6 @@
 /*
+https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description
+
 1061. Lexicographically Smallest Equivalent String
 
 You are given two strings of the same length s1 and s2 and a string baseStr.
